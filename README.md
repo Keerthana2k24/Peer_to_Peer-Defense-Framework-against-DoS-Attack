@@ -112,7 +112,7 @@ This will automatically start:
 - QML service
 - Backend coordination server
 - Multiple peer nodes
-- **Frontend dashboard**
+- Frontend dashboard
 In another terminal,
 ```
 frontend/index.html
