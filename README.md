@@ -1,4 +1,4 @@
-## Distributed P2P Defense Framework Against DoS Attacks using Quantum Machine Learning
+## A Decentralized Peer to Peer Defense Framework Against DoS Attacks using Quantum Machine Learning
 This project implements a decentralized peer-to-peer (P2P) defense system to detect and mitigate Denial-of-Service (DoS) attacks using Quantum Machine Learning (QML).
 Each peer node independently monitors its incoming traffic, collaborates with other nodes during attacks, and enforces coordinated protection and automatic recovery.
 The system simulates real-world attack scenarios and visualizes node behavior through a real-time interactive dashboard.
