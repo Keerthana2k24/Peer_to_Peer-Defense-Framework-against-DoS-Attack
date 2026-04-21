@@ -103,7 +103,7 @@ python -m venv venv
 source venv/bin/activate      # Linux / macOS
 venv\Scripts\activate         # Windows
 ```
--▶️ Running the System - Start All Components (One Command)
+- ▶️ Running the System - Start All Components (One Command)
 ```
 python run_all.py
 ```
