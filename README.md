@@ -93,10 +93,9 @@ P2P_QML_DoS_Demo/
 - **Visualization:**	RESTAPI
   
 ## Installation & Setup
-- 1️⃣ Download code directory from the below drive link:
-  https://1drv.ms/f/c/50a59d4a5bd9ec58/IgBQJ0TkVJP3Q5JachJlr-MiAV7oj-xs-4snyMR6SVKQVMg?e=plpsjr
+- 1️⃣ Download code directory
 ```
-cd P2P_QML_DoS_Demo -copy
+cd P2P_QML_DoS_Demo
 ```
 - 2️⃣ Create Virtual Environment
 ```
