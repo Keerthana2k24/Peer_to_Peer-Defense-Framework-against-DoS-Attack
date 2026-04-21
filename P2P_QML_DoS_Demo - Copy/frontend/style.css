@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #1b2735, #090a0f);
+    color: #fff;
+}
+
+header, footer {
+    text-align: center;
+    padding: 15px;
+}
+
+#network {
+    position: relative;
+    width: 100vw;
+    height: 75vh;
+}
+
+#nodes {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.node {
+    position: absolute;
+    width: 160px;
+    background: rgba(255,255,255,0.12);
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.node:hover {
+    transform: scale(1.05);
+}
+
+.status {
+    margin-top: 6px;
+    padding: 4px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+
+.NORMAL { background: #2ecc71; }
+.UNDER_ATTACK { background: #e74c3c; animation: pulse 1s infinite; }
+.PROTECTED { background: #f39c12; }
+
+.details {
+    display: none;
+    margin-top: 8px;
+    font-size: 0.85rem;
+}
+
+.node.active .details {
+    display: block;
+}
+
+#links {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.node {
+    z-index: 2;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(231,76,60,0.7); }
+    70% { box-shadow: 0 0 0 15px rgba(231,76,60,0); }
+}

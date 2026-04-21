@@ -1,0 +1,5 @@
+[
+  {"id": "Node1", "alert": "http://127.0.0.1:9001/alert"},
+  {"id": "Node2", "alert": "http://127.0.0.1:9002/alert"},
+  {"id": "Node3", "alert": "http://127.0.0.1:9003/alert"}
+]
